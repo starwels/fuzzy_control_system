@@ -423,9 +423,9 @@ fuzzycontrolE.insert_rule("P" ,"M","P" ,"MT");
 fuzzycontrolE.insert_rule("M" ,"M","M" ,"MT");
 
 
-fuzzycontrolE.insert_rule("ML" ,"MP","ML" ,"RT");
-fuzzycontrolE.insert_rule("ML" ,"P","ML" ,"RT");
-fuzzycontrolE.insert_rule("ML" ,"M","ML" ,"RT");
+fuzzycontrolE.insert_rule("ML" ,"MP","ML","RT");
+fuzzycontrolE.insert_rule("ML" ,"P" ,"ML","RT");
+fuzzycontrolE.insert_rule("ML" ,"M" ,"ML","RT");
 
 
 

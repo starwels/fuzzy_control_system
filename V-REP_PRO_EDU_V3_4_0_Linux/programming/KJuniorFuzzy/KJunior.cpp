@@ -17,9 +17,7 @@ int main(int argc, const char * argv[]) {
 	int portNb, leftMotorHandle, rightMotorHandle;
 	int sensors [6] = {0, 0, 0, 0, 0, 0};
 	float distances [6] = {0, 0, 0, 0, 0, 0};
-//        float alternativedistances [6] = {0, 0, 0, 0, 0, 0};
-
-
+//      float alternativedistances [6] = {0, 0, 0, 0, 0, 0};
 
 	//check if there are correct quantity of parameters
 	if (argc>=10)

@@ -439,21 +439,21 @@ fuzzycontrolD.insert_rule("M","ML","ML","DT");
 
 // Meia volta
 
-fuzzycontrolD.insert_rule("MP","MP","MP","MF");
-fuzzycontrolD.insert_rule("P" ,"MP","P" ,"MF");
-fuzzycontrolD.insert_rule("M" ,"MP","M" ,"MF");
+fuzzycontrolD.insert_rule("MP","MP","MP","DF");
+fuzzycontrolD.insert_rule("P" ,"MP","P" ,"DF");
+fuzzycontrolD.insert_rule("M" ,"MP","M" ,"DF");
 
-fuzzycontrolD.insert_rule("MP","P","MP","MF");
-fuzzycontrolD.insert_rule("P" ,"P","P" ,"MF");
-fuzzycontrolD.insert_rule("M" ,"P","M" ,"MF");
+fuzzycontrolD.insert_rule("MP","P","MP","DF");
+fuzzycontrolD.insert_rule("P" ,"P","P" ,"DF");
+fuzzycontrolD.insert_rule("M" ,"P","M" ,"DF");
 
-fuzzycontrolD.insert_rule("MP","M","MP","MF");
-fuzzycontrolD.insert_rule("P" ,"M","P" ,"MF");
-fuzzycontrolD.insert_rule("M" ,"M","M" ,"MF");
+fuzzycontrolD.insert_rule("MP","M","MP","DF");
+fuzzycontrolD.insert_rule("P" ,"M","P" ,"DF");
+fuzzycontrolD.insert_rule("M" ,"M","M" ,"DF");
 
-fuzzycontrolD.insert_rule("ML" ,"MP","ML" ,"RF");
-fuzzycontrolD.insert_rule("ML" ,"P","ML" ,"RF");
-fuzzycontrolD.insert_rule("ML" ,"M","ML" ,"RF");
+fuzzycontrolD.insert_rule("ML","MP","ML","DF");
+fuzzycontrolD.insert_rule("ML","P" ,"ML","DF");
+fuzzycontrolD.insert_rule("ML","M" ,"ML","DF");
 
 
 // Define-se a leitura dos sensores do seu sistema
